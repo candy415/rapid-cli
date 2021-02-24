@@ -1,0 +1,22 @@
+{
+  "name": "rapid-tool-cli",
+  "version": "1.0.3",
+  "description": "脚手架",
+  "main": "index.js",
+  "private": false,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "rapid-cli": "./bin/index.js"
+  },
+  "keywords": ["前端脚手架", "commander"],
+  "author": "candyhu",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.0.0",
+    "commander": "^5.0.0",
+    "fs-extra": "^9.0.0",
+    "inquirer": "^7.1.0"
+  }
+}
